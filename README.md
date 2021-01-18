@@ -1,1 +1,1 @@
-# My random competitive programming solutions
+# My random Competitive Programming solutions
