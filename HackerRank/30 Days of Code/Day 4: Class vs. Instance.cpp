@@ -14,7 +14,6 @@ class Person{
     };
 
     Person::Person(int initialAge){
-        // Add some more code to run some checks on initialAge
         if(initialAge>0){
             age = initialAge;
         }
@@ -26,8 +25,7 @@ class Person{
 
     }
 
-    void Person::amIOld(){
-        // Do some computations in here and print out the correct statement to the console 
+    void Person::amIOld(){ 
         if(age<13){
             cout << "You are young.\n";
         }
@@ -41,7 +39,6 @@ class Person{
     }
 
     void Person::yearPasses(){
-        // Increment the age of the person in here
         age++;
 
     }
