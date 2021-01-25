@@ -1,5 +1,5 @@
 /*
-PROBLEM LINK: 
+PROBLEM LINK: https://www.hackerrank.com/challenges/30-arrays/problem
 */
 
 #include<bits/stdc++.h>
