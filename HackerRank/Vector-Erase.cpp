@@ -16,7 +16,7 @@ int main(){
      }
      cin >> x >> a >> b;
      y.erase(y.begin()+x-1);
-    y.erase(y.begin()+a-1,y.begin()+b-1);
+     y.erase(y.begin()+a-1,y.begin()+b-1);
     
     size = y.size();
     cout << size << endl;
