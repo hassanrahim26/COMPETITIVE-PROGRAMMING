@@ -1,3 +1,7 @@
+/* 
+PROBLEM LINK:- https://codeforces.com/contest/1542/problem/A
+*/
+
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
