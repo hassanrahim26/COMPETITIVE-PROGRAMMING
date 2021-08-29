@@ -5,7 +5,7 @@ PROBLEM LINK:- https://cses.fi/problemset/task/1095
 #include<bits/stdc++.h>
 #define ll long long
 #define vi vector<int>
-#define MOD 1000000007
+#define mod 1000000007
 #define test ll t; cin >> t; while(t--)
 #define FOR for(ll i = 0; i < n; i++)
 #define nn "\n"
@@ -19,10 +19,10 @@ ll power(ll a, ll b)
 		return 1;
  
 	p = power(a, b / 2);
-	p = p * p % MOD;
+	p = p * p % mod;
  
 	if (b % 2 == 1)
-		p = p * a % MOD;
+		p = p * a % mod;
  
 	return p;
 }
